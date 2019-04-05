@@ -15,9 +15,7 @@ cartao ^(\d{4}\s){3}\d{4}$
 
 [\t ]+
 
-{url} {printf("url");}
-{reais} {printf("reais");}
-{cartao} {printf("cartao");}
+[0-9] {printf("teu cu")}
 
 %%
 
