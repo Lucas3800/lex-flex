@@ -1,0 +1,2 @@
+# lex-flex
+.vscode
