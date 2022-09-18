@@ -15,7 +15,7 @@ cartao ^(\d{4}\s){3}\d{4}$
 
 [\t ]+
 
-[0-9] {printf("teu cu - %s", yytext);}
+[0-9] {printf("%s", yytext);}
 
 %%
 
